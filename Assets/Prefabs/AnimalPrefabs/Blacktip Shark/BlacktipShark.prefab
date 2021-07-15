@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3836215827753344419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2251119959440027216}
+  - component: {fileID: 5410837145677737587}
+  m_Layer: 0
+  m_Name: BlacktipShark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2251119959440027216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3836215827753344419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5410837145677737587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3836215827753344419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2300e14cae8f0a44b3af7fb47ce4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commonName: Blacktip Shark
+  scientificName: Carcharhinus limbatus
+  type: 1
+  sizeInMetres: 0
+  weightInKg: 0
+  lifeSpan: 0
+  speed: 0
+  turnSpeed: 0
+  food: 1
+  cameraToLookAt: {fileID: 0}
+  prefab: {fileID: 4372099759849126468, guid: bbfd5f0d10af2ff40877aec61444f750, type: 3}
+  hasFoodTarget: 0
+  lookingUp: 0
